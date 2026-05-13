@@ -4,7 +4,7 @@ import os
 
 app = Flask(__name__)
 
-API_KEY = os.environ.get("WEATHERBIT_API_KEY", "b17d8035ce104a86a08892b214437a9c")
+API_KEY = os.environ.get("WEATHERBIT_API_KEY", "")  # 部署时通过环境变量注入
 LAT = 3.139
 LON = 101.6869
 TIMEOUT = 10
