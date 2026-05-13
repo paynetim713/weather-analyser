@@ -1,5 +1,23 @@
+# Python
 __pycache__/
 *.pyc
-.env
+*.pyo
+.venv/
 venv/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# 环境变量
+.env
+.env.local
+
+# 测试 / 临时日志
+_test_*.log
+*.log
+
+# IDE / OS
+.vscode/
+.idea/
 .DS_Store
+Thumbs.db
