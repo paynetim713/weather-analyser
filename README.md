@@ -1,13 +1,8 @@
 # KL Weather Analyser
 
 Flask 小项目，把 Weatherbit 的天气 API 拿来包一层好看的前端：吉隆坡当前天气 + 未来几天预报，用 Chart.js 画折线图。
-
-学校作业里需要一个调外部 API 的网页 demo，挑了这个题目顺手做了一下。
-
 ## 跑起来
-
-需要一个 Weatherbit 免费 key（https://www.weatherbit.io/account/create 申请，免费层每天 50 次调用够练手）。
-
+需要一个 Weatherbit 免费 key（https://www.weatherbit.io/account/create 申请，免费层每天 50 次调用）。
 ```bash
 pip install -r requirements.txt
 export WEATHERBIT_API_KEY=你的key
